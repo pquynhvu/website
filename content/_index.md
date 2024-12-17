@@ -5,9 +5,9 @@ date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
-  spacing: #"6rem"
-     padding: ['5px', '0', '5px', '0']
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ['20px', '0', '20px', '0']
 
 sections:
   - block: resume-biography-3
