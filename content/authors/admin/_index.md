@@ -78,7 +78,7 @@ education:
     statistical methods that address inferential challenges induced by computational 
     constraints for high-dimensional data and varying-dimension parameter space in 
     Bayesian framework. In my past life, I had conducted research on Markov Chain Monte 
-    Carlo, agent-based modeling, and variational Bayes. My CV can be found [here]{uploads/resume.pdf}.
+    Carlo, agent-based modeling, and variational Bayes. My CV can be found [here](uploads/resume.pdf).
   </p>
 
   <p align="justify">
