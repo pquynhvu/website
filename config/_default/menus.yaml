@@ -5,7 +5,7 @@
 
 main:
   - name: Quynh (Christina) Vu
-    url: /bio
+    url: /#bio
     weight: 5
   - name: Research
     url: /#papers
