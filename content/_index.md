@@ -7,7 +7,7 @@ type: landing
 design:
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ['20px', '0', '20px', '0']
+    padding: [20, 0, 20, 0]
 
 sections:
   - block: resume-biography-3
