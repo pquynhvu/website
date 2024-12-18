@@ -71,17 +71,29 @@ sections:
     id: papers
     content:
       title: Publications
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
       text: |
         {{% callout note %}}
           [See all publications](./publication/).
         {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: true
+        exclude_future: false
+        exclude_past: false
+      offset: 2 # Choose how many pages you would like to offset by
+      sort_by: 'Date'
+      sort_ascending: false
     design:
-      view: citation
-      columns: 2
+      # Choose a listing view
+      view: compact
+      # Choose single or dual column layout
+      columns: '2'
   #- block: collection
     #id: talks
     #content:
