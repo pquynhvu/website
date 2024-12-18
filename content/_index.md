@@ -21,7 +21,6 @@ sections:
           - publication
         exclude_featured: true
     design:
+      view: 3
       columns: '2'
-      view: citation
-
 ---
