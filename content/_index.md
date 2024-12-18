@@ -67,13 +67,10 @@ sections:
     #design:
       #view: article-grid
       #columns: 2
-  - block: collection
+  - block: featured
     content:
-      title: #Publications
+      title: Publications
       text: |
-        <p align="left">
-          <font size="5"> Publications </font><br />
-        </p>
       filters:
         folders:
           - publication
