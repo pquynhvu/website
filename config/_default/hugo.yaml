@@ -1,10 +1,12 @@
 # Configuration of Hugo
-# Guide: https://wowchemy.com/docs/getting-started/
+# Guide: https://docs.hugoblox.com/tutorial/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Hi, I'm Quỳnh # Website name
-baseURL: 'https://pquynhvu.com/' # Website URL
+# Website name
+title: Hi, I'm Quỳnh
+# Website URL
+baseURL: 'https://pquynhvu.com/'
 
 ############################
 ## LANGUAGE
@@ -21,12 +23,8 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
-    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
-    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
-    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
 
 ############################
 ## ADVANCED
@@ -40,7 +38,7 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
+  authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
@@ -53,6 +51,9 @@ imaging:
   quality: 75
   anchor: smart
 timeout: 600000
+cascade:
+  show_date: false
+  share: false
 taxonomies:
   tag: tags
   category: categories
@@ -72,6 +73,4 @@ related:
 security:
   _merge: deep
 sitemap:
-  _merge: deep
-minify:
   _merge: deep
