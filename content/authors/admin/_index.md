@@ -79,10 +79,11 @@ education:
     In particular, I aim to develop statistical methods that address inferential challenges induced by 
     computational constraints for high-dimensional data and varying-dimension parameter space in Bayesian 
     framework. In my past life, I had conducted research on Markov Chain Monte Carlo, agent-based modeling, 
-    and variational Bayes. My CV can be found [here](./resume.pdf).
+    and variational Bayes. 
   </p>
-
   <p align="justify">
-    Non-academic-wise, I really enjoy reading, crocheting, and hiking. I'm also a coffee enthusiast!!
+    Non-academic-wise, I am passionate about improving statistical communication and overall statistical literacy and increasing the representation of women in STEM and other quantitative fields. Outside of work, I enjoy reading, crocheting, and hiking, and I am also a coffee enthusiast!
   </p>
 </body>
+
+My full CV can be found [here](./uploads/resume.pdf).
