@@ -13,9 +13,9 @@ sections:
     content:
       title: Recent Publications
       text: |-
-          {{% callout note %}}
-          Quickly discover relevant content by [filtering publications](./publication/).
-          {{% /callout %}}
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
       filters:
         folders:
           - publication
@@ -23,25 +23,5 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      email: l.toni@ucl.ac.uk
-      address:
-        street: Gower Street
-        city: London
-        region:
-        postcode: 'WC1E 7JE'
-        country: UK
-        country_code: UK
-      coordinates:
-        latitude: '51.52341496502994'
-        longitude: '-0.1324558153455622'
-      directions: Malet Place Engineering Building
-      office_hours:
-      appointment_url:
-      contact_links:
-    design:
-      columns: '2'
+
 ---
