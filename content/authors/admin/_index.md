@@ -35,6 +35,8 @@ profiles:
     url: 'mailto:pquynhvu@outlook.com'
   - icon: brands/x
     url: https://x.com/pquynhvu
+  - icon: "custom/bsky"
+    url: https://bsky.app/
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/pquynhvu/
   - icon: brands/github
