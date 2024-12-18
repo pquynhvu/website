@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: nord
+  theme_night: nord
   font: native
   font_size: L
 
@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
+    description: 'Statistician in the making'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -45,9 +45,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Quynh (Christina) Vu. This work is licensed under {license}'
+    notice: '© {year} Quynh (Christina) Vu.' # This work is licensed under {license}'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
