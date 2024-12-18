@@ -16,9 +16,6 @@ sections:
       username: admin
       title: About me
       text: |
-        <p align="left">
-          <font size="5"> About me </font><br />
-        </p>
         <p align="justify">
           I am a Ph.D. student in the Department of Statistics at the University of Florida (UFL). Prior to 
           joining UFL, I completed my bachelor's and master's degrees in Canada. My current research interests 
@@ -37,18 +34,18 @@ sections:
       #button:
         #text: Download CV
         #url: uploads/resume.pdf
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
+    #design:
+      #css_class: dark
+      #background:
+        #color: black
+        #image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+          #filename: stacked-peaks.svg
+          #filters:
+            #brightness: 1.0
+          #size: cover
+          #position: center
+          #parallax: false
   #- block: markdown
     #content:
       #title: '📚 My Research'
