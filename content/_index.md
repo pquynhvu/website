@@ -139,6 +139,10 @@ sections:
   - block: markdown
     id: contact
     content:
-      text: |
+      title: Contact me
+      subtitle:
+      text: |-
         Let's get in touch! Drop me a line through the form below and I'll get back to you at my earliest convenience.
+      address:
+        street: 234 Griffin-Floyd Hall
 ---
