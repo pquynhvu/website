@@ -16,7 +16,7 @@ sections:
       username: admin
       text: |
         <p align="left">
-          <font size="5"> **About me** </font><br />
+          <font size="5"> About me </font><br />
         </p>
         <p align="justify">
           I am a Ph.D. student in the Department of Statistics at the University of Florida (UFL). Prior to 
