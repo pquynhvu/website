@@ -69,7 +69,7 @@ education:
 
 ---
 
-## About Me
+## About me
 
 <body>
   <p align="justify">
