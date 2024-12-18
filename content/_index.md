@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 design:
-  spacing: "0.5rem"
+  spacing: "1rem"
 
 sections:
   - block: resume-biography-3
@@ -41,7 +41,7 @@ sections:
     id: papers
     content:
       title: Publications
-      text: |
+      text: |-
         {{% callout note %}}
           [See all publications](./publication/).
         {{% /callout %}}
