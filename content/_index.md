@@ -82,10 +82,10 @@ sections:
         category: ""
         tag: ""
         publication_type: ""
-        featured_only: false
+        #featured_only: false
         exclude_featured: true
-        exclude_future: false
-        exclude_past: false
+        #exclude_future: false
+        #exclude_past: false
       offset: 2 # Choose how many pages you would like to offset by
       sort_by: 'Date'
       sort_ascending: false
