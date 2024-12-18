@@ -86,7 +86,7 @@ sections:
       sort_ascending: false
     design:
       # Choose a listing view
-      view: citation
+      #view: citation
       # Choose single or dual column layout
       columns: '2'
   #- block: collection
