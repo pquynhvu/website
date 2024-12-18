@@ -12,10 +12,12 @@ sections:
   - block: resume-biography-3
     id: bio
     content:
-      title: About me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: |
+        <p align="left">
+          <font size="5"> About me </font><br />
+        </p>
         <p align="justify">
           I am a Ph.D. student in the Department of Statistics at the University of Florida (UFL). Prior to 
           joining UFL, I completed my bachelor's and master's degrees in Canada. My current research interests 
@@ -67,8 +69,11 @@ sections:
       #columns: 2
   - block: collection
     content:
-      title: Publications
-      text: ""
+      title: #Publications
+      text: |
+        <p align="left">
+          <font size="5"> Publications </font><br />
+        </p>
       filters:
         folders:
           - publication
