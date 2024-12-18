@@ -12,26 +12,9 @@ sections:
   - block: resume-biography-3
     id: bio
     content:
+      title: About me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: |
-        <p align="left">
-          <font size="5"> About me </font><br />
-        </p>
-        <p align="justify">
-          I am a Ph.D. student in the Department of Statistics at the University of Florida (UFL). Prior to 
-          joining UFL, I completed my bachelor's and master's degrees in Canada. My current research interests 
-          lie at the interface of Bayesian statistics, assumption-free prediction, and uncertainty quantification. 
-          In particular, I aim to develop statistical methods that address inferential challenges induced by 
-          computational constraints for high-dimensional data and varying-dimension parameter space in Bayesian 
-          framework. In my past life, I had conducted research on Markov Chain Monte Carlo, agent-based modeling, 
-          and variational Bayes. 
-        </p>
-        <p align="justify">
-          Non-academic-wise, I am passionate about improving statistical communication and overall statistical literacy and increasing the representation of women in STEM and other quantitative fields. Outside of work, I enjoy reading, crocheting, and hiking, and I am also a coffee enthusiast!
-        </p>
-
-        My full CV can be found [here](./uploads/resume.pdf).
       # Show a call-to-action button under your biography? (optional)
       #button:
         #text: Download CV
@@ -72,7 +55,7 @@ sections:
           - publication
         exclude_featured: true
     design:
-      columns: 2
+      columns: '2'
       view: citation
   #- block: collection
     #id: talks
