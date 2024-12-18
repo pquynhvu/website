@@ -5,8 +5,7 @@ date: 2022-10-24
 type: landing
 
 design:
-  spacing: 
-    padding = ["1px", "0", "1px", "0"] # top, right, bottom, left.
+  spacing: "0.1rem"
 
 sections:
   - block: resume-biography-3
