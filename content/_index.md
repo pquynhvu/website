@@ -71,17 +71,17 @@ sections:
     id: papers
     content:
       title: Publications
-      text: |
-        {{% callout note %}}
-          Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
       filters:
         folders:
           - publication
         exclude_featured: true
+      text: |
+        {{% callout note %}}
+          [See all publications](./publication/).
+        {{% /callout %}}
     design:
-      columns: '2'
       view: citation
+      columns: 2
   #- block: collection
     #id: talks
     #content:
