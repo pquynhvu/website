@@ -63,14 +63,16 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
+    enable: false
+    extra_languages:
+      - latex
+      - python
   math:
     enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/pquynhvu/website.github.io'
     content_dir: content
     branch: main
   avatar:
