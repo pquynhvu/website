@@ -136,4 +136,9 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
+  - block: markdown
+    id: contact
+    content:
+      text: |
+        Let's get in touch! Drop me a line through the form below and I'll get back to you at my earliest convenience.
 ---
