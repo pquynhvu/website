@@ -4,9 +4,9 @@ title: ""
 date: 2022-10-24
 type: landing
 
-design:
+#design:
   # Default section spacing
-  spacing: "2rem"
+  #spacing: "2rem"
 
 sections:
   - block: resume-biography-3
