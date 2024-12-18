@@ -1,14 +1,14 @@
 # SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 
 appearance:
-  theme_day: nord
-  theme_night: nord
-  font: native
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
   font_size: L
 
 # SEO
@@ -18,13 +18,13 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Statistician in the making'
-    twitter: 'GetResearchDev'
+    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
+    twitter: 'wowchemy'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
     google_tag_manager: ''
-    microsoft_clarity: ''
+    microsoft_clarity: ''  
   verification:
     google: ''
     baidu: ''
@@ -45,9 +45,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Quynh (Christina) Vu.' # This work is licensed under {license}'
+    notice: '© {year} Me. This work is licensed under {license}'
     license:
-      enable: false
+      enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -55,7 +55,7 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 1, 2025'
+  date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
@@ -63,19 +63,14 @@ locale:
 
 features:
   syntax_highlighter:
-    enable: false
-    extra_languages:
-      - r
-      - latex
-      - python
+    theme_light: github-light
+    theme_dark: dracula
   math:
-    enable: true
-  diagram:
-    enable: true
+    enable: false
   privacy_pack:
-    enable: true
+    enable: false
   repository:
-    url: 'https://github.com/pquynhvu/website.github.io'
+    url: 'https://github.com/<username>/<repository>'
     content_dir: content
     branch: main
   avatar:
@@ -101,7 +96,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
+    provider: ''
     api_key: ''
     zoom: 15
 
@@ -111,18 +106,11 @@ extensions:
   cms:
     branch: main
     local_backend: false
-  isotope:
-    enable: true # Enable if you use the Portfolio widget or Publication filter
   academicons:
     enable: true
 
 # Security
 
 security:
-  allow_frame: true # Allow frame for embedding speaker notes in slides
-
-# Citation style
-publications:
-  date_format: January 2006
-  citation_style: apa
-
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true
