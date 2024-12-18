@@ -1,13 +1,6 @@
 ---
-# Leave the homepage title empty to use the site title
-title: ''
-date: 2024-01-15
+title:
 type: landing
-
-design:
-  spacing:
-    margin: [0.5, 0.5, 0.5, 0.5]
-
 sections:
   - block: resume-biography-3
     id: about_me
@@ -18,17 +11,37 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Publications & Projects
+      title: Recent Publications
       text: |-
-        {{% callout note %}}
+          {{% callout note %}}
           Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+          {{% /callout %}}
       filters:
         folders:
           - publication
         exclude_featured: true
     design:
       columns: '2'
-      #view: compact
-  
+      view: citation
+  - block: contact
+    id: contact
+    content:
+      title: Contact
+      email: l.toni@ucl.ac.uk
+      address:
+        street: Gower Street
+        city: London
+        region:
+        postcode: 'WC1E 7JE'
+        country: UK
+        country_code: UK
+      coordinates:
+        latitude: '51.52341496502994'
+        longitude: '-0.1324558153455622'
+      directions: Malet Place Engineering Building
+      office_hours:
+      appointment_url:
+      contact_links:
+    design:
+      columns: '2'
 ---
