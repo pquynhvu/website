@@ -10,13 +10,13 @@ design:
 
 sections:
   - block: resume-biography-3
-    id: bio
+    id: about_me
     content:
       title: About me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: quynhvu
   - block: collection
-    id: papers
+    id: publications
     content:
       title: Publications & Projects
       text: |-

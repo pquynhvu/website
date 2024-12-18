@@ -5,16 +5,16 @@
 
 main:
   - name: Quynh (Christina) Vu
-    url: /#bio
+    url: "#about_me"
     weight: 5
   - name: Research
-    url: /#papers
+    url: "#publications"
     weight: 11
   #- name: Talks
     #url: /#talks
     #weight: 12
   - name: News
-    url: /#news
+    url: "#updates"
     weight: 13
   #- name: Experience
     #url: experience/
@@ -26,5 +26,5 @@ main:
     #url: teaching/
     #weight: 40
   - name: Contact me
-    url: /#contact
+    url: "#contact"
     weight: 50
