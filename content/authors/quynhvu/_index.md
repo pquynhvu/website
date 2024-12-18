@@ -26,7 +26,7 @@ profiles:
     url: 'mailto:pquynhvu@outlook.com'
   - icon: brands/x
     url: https://x.com/pquynhvu
-  - icon: "custom/Bluesky_Logo.svg"
+  - icon: "custom/Bluesky_Logo"
     url: https://bsky.app/profile/pquynhvu.bsky.social
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/pquynhvu/
