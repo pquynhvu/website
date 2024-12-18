@@ -67,7 +67,8 @@ sections:
     #design:
       #view: article-grid
       #columns: 2
-  - block: featured
+  - block: pub
+    id: papers
     content:
       title: Publications
       text: |
