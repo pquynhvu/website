@@ -21,7 +21,7 @@ sections:
         In particular, I aim to develop statistical methods that address inferential challenges induced by 
         computational constraints for high-dimensional data and varying-dimension parameter space in Bayesian 
         framework. In my past life, I had conducted research on Markov Chain Monte Carlo, agent-based modeling, 
-        and variational Bayes. My CV can be found [here](../content/resume.pdf).
+        and variational Bayes. My CV can be found [here](.../static/uploads/resume.pdf).
       # Show a call-to-action button under your biography? (optional)
       #button:
         #text: Download CV
