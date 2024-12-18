@@ -65,12 +65,15 @@ features:
   syntax_highlighter:
     enable: false
     extra_languages:
+      - r
       - latex
       - python
   math:
     enable: true
+  diagram:
+    enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/pquynhvu/website.github.io'
     content_dir: content
@@ -108,14 +111,15 @@ extensions:
   cms:
     branch: main
     local_backend: false
+  isotope:
+    enable: true # Enable if you use the Portfolio widget or Publication filter
   academicons:
     enable: true
 
 # Security
 
 security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+  allow_frame: true # Allow frame for embedding speaker notes in slides
 
 # Citation style
 publications:
