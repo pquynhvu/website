@@ -78,17 +78,10 @@ sections:
       filters:
         folders:
           - publication
-        #featured_only: false
         exclude_featured: true
-        #exclude_future: false
-        #exclude_past: false
-      #sort_by: 'Date'
-      sort_ascending: false
     design:
-      # Choose a listing view
-      #view: citation
-      # Choose single or dual column layout
       columns: '2'
+      view: citation
   #- block: collection
     #id: talks
     #content:
@@ -149,4 +142,6 @@ sections:
       title: Let's get in touch!
       text: |-
          Drop me a line through the form below and I'll get back to you at my earliest convenience.
+    design:
+      columns: '2'
 ---
