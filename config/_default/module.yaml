@@ -6,11 +6,6 @@
 
 imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
-<<<<<<< HEAD
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
-=======
->>>>>>> af960add1868c77ae84d311cbd387f063bea134d
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
