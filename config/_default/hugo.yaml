@@ -25,14 +25,18 @@ removePathAccents: true
 ## ADVANCED
 ############################
 
+build:
+  writeStats: true
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+paginate: 
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
+  authors: '/author/:slug/'
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
@@ -53,6 +57,8 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  highlight:
+    lineNos: false
 related:
   threshold: 80
   includeNewer: true
