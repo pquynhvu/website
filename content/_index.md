@@ -4,6 +4,10 @@ title: ''
 date: 2024-01-15
 type: landing
 
+design:
+  spacing:
+    margin: [0.5, 0.5, 0.5, 0.5]
+
 sections:
   - block: resume-biography-3
     id: bio
