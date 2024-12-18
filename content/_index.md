@@ -14,8 +14,10 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      title: About me
       text: |
+        <p align="left">
+          <font size="5"> About me </font><br />
+        </p>
         <p align="justify">
           I am a Ph.D. student in the Department of Statistics at the University of Florida (UFL). Prior to 
           joining UFL, I completed my bachelor's and master's degrees in Canada. My current research interests 
