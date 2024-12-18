@@ -15,8 +15,8 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: |
-        <p align="justify">
-          <font size="5"> About me </font><br />
+        <p align="left">
+          <font size="5"> **About me** </font><br />
         </p>
         <p align="justify">
           I am a Ph.D. student in the Department of Statistics at the University of Florida (UFL). Prior to 
@@ -28,7 +28,7 @@ sections:
           and variational Bayes. 
         </p>
         <p align="justify">
-          Non-academic-wise, I really enjoy reading, crocheting, and hiking. I'm also a coffee enthusiast!!
+          Non-academic-wise, I am passionate about improving statistical communication and overall statistical literacy and increasing the representation of women in STEM and other quantitative fields. Outside of work, I enjoy reading, crocheting, and hiking, and I am also a coffee enthusiast!
         </p>
 
         My full CV can be found [here](./uploads/resume.pdf).
